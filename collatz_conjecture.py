@@ -12,7 +12,7 @@ while x != 1:
         x = x / 2
         count += 1
     else:
-        x = (x * 3) + 1
+        x = x * 3 + 1
         count += 1
 
 print("It takes {} steps to reach 1".format(count))
